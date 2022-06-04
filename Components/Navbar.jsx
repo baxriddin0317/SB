@@ -15,14 +15,14 @@ function Navbar() {
     const router = useRouter()
     useEffect(() => {
         if(
-            router.asPath === '/property/1' ||
-            router.asPath === '/property/2' ||
-            router.asPath === '/property/3' ||
-            router.asPath === '/property/4' ||
-            router.asPath === '/property/5' ||
-            router.asPath === '/property/6' ||
-            router.asPath === '/property/7' ||
-            router.asPath === '/property/8'
+            router.asPath === '/furniking' ||
+            router.asPath === '/food' ||
+            router.asPath === '/blog' ||
+            router.asPath === '/cmp' ||
+            router.asPath === 'imperium' ||
+            router.asPath === '/kiwi' ||
+            router.asPath === '/newcast' ||
+            router.asPath === '/travel'
         ){
             setNavBg('transparent')
             setLinkColor('#ecf0f3')
