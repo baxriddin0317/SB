@@ -2,13 +2,9 @@ import Image from "next/image"
 import React from 'react'
 import { RiRadioButtonFill  } from "react-icons/ri"
 import Link from "next/link"
-import { useRouter } from 'next/router'
-import Baza from "../../public/Baza"
+import Blog from "../public/Assets/blog.jpg"
 
-function Detali() {
-  const router = useRouter()
-  const { id } = router.query
-  const obyekt = Baza.find(d => d.id == id ? d : null);
+function blog() {
 
   return (
     <div className='w-full'>
@@ -18,10 +14,10 @@ function Detali() {
           className="absolute z-1" 
           layout="fill" 
           objectFit="cover" 
-          src={obyekt.img.src} alt='/' 
+          src={Blog} alt='/' 
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2"> {obyekt.title} </h2>
+          <h2 className="py-2">Bobur Blog </h2>
           <h3>React js / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -31,12 +27,12 @@ function Detali() {
           <p>Project</p>
           <h2>Overbiew</h2>
           <p>
-            {obyekt.description}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum maiores excepturi quibusdam ullam repellat maxime porro vero optio voluptas perferendis amet, dolores enim alias reiciendis repellendus, sit minima assumenda nam at? Fugiat quas quam, ipsum minima corporis ipsa molestiae libero.
           </p>
-          <Link href={obyekt.siteLink}>
+          <Link href="https://blog-xoja.netlify.app">
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
-          <Link href={obyekt.githubLink}>
+          <Link href="https://github.com/baxriddin0317/blog">
           <button className="px-8 py-2 mt-4">code</button>
           </Link>
         </div>
@@ -45,9 +41,7 @@ function Detali() {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              {obyekt.skills.map((sik, i) => (
-                <p key={i} className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> {sik}</p>
-              ))}
+                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> React js</p>
             </div>
           </div>
         </div>
@@ -61,5 +55,5 @@ function Detali() {
   )
 }
 
-export default Detali
+export default blog
 

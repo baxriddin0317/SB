@@ -19,7 +19,7 @@ function Content() {
                     {/* image */}
                     <div className="h-full lg:p-4">
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="https://talaba.su/chandrasona/2020/12/shabakai-kompyuteri-computer-e1609268645978.jpg" alt="#" />
+                            <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://talaba.su/chandrasona/2020/12/shabakai-kompyuteri-computer-e1609268645978.jpg" alt="#" />
                         </div>
                         <div>
                             <h2 className="py-2">Name here</h2>
@@ -33,17 +33,25 @@ function Content() {
                         <div>
                             <p className="uppercase pt-8">Connect with me</p>
                             <div className="flex items-center justify-between py-4">
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <FaTelegram />
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-500'>
+                                    <Link href="https://t.me/Baxriddinxoja_Axmadaliyev">
+                                        <FaTelegram size={30} />
+                                    </Link>
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <FaGithub />
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-500'>
+                                    <Link href="https://github.com/baxriddin0317">
+                                        <FaGithub size={30} />
+                                    </Link>
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <AiOutlineMail />
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-500'>
+                                    <Link href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+                                    <AiOutlineMail size={30} />
+                                    </Link>
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <BsFillPersonLinesFill />
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-500'>
+                                    <Link href="tel:+998916110317">
+                                    <BsFillPersonLinesFill size={30} />
+                                    </Link>
                                 </div>
                             </div>
                         </div>
