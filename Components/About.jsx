@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image"
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Who I am</h2>
-                <p className='py-2 text-gray-600'>// I am not your normal developer</p>
+                <p className='py-2 text-gray-600'>|| I am not your normal developer</p>
                 <p className='py-2 text-gray-600'>
                     I have spent the last 1 years in the fire service working as a professional firefighter & paramedic. I have always had a knack for technology and workin with computers. In 2022 I started working with HTML & CSS to make some minor edits on a small busness website that I was operating. What I thought was just a few small edits turned into a love for programming.
                 </p>
@@ -20,7 +21,7 @@ function About() {
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center
             p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' src="https://media.istockphoto.com/photos/white-rgb-battle-station-rendering-gaming-pc-led-case-and-mechanical-picture-id1166235766?k=20&m=1166235766&s=612x612&w=0&h=juYzCJpve88KwYEVSSmkbWrrG9c08mSFgtFNThgXZ0g=" alt="/" />
+                <Image className='rounded-xl' src="https://media.istockphoto.com/photos/white-rgb-battle-station-rendering-gaming-pc-led-case-and-mechanical-picture-id1166235766?k=20&m=1166235766&s=612x612&w=0&h=juYzCJpve88KwYEVSSmkbWrrG9c08mSFgtFNThgXZ0g=" alt="/" />
             </div>
         </div>
     </div>

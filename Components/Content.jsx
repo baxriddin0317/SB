@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from "next/link"
+import Image from "next/image"
 import { AiOutlineMail } from "react-icons/ai"
 import { FaTelegram, FaGithub } from "react-icons/fa"
 import { BsFillPersonLinesFill } from "react-icons/bs"
@@ -18,13 +19,13 @@ function Content() {
                     {/* image */}
                     <div className="h-full lg:p-4">
                         <div>
-                            <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://talaba.su/chandrasona/2020/12/shabakai-kompyuteri-computer-e1609268645978.jpg" alt="#" />
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="https://talaba.su/chandrasona/2020/12/shabakai-kompyuteri-computer-e1609268645978.jpg" alt="#" />
                         </div>
                         <div>
                             <h2 className="py-2">Name here</h2>
                             <p>Frot-End Developer </p>
                             <p className="py-4">
-                                I am available for freelancer or full-time positions. Contact me and let's talk.
+                                I am available for freelancer or full-time positions. Contact me and let`s talk.
                             </p>
                         </div>
 

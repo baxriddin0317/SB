@@ -8,9 +8,9 @@ function Main() {
     <div id='home' className='w-full h-screen text-center z-0'>
         <div className='max-w-[1240px] w-full h-full mx-auto flex justfy-center items-center'>
             <div>
-                <p className='uppercase text-sm tracking-widest test-gray-600'>Let's build something together</p>
+                <p className='uppercase text-sm tracking-widest test-gray-600'>Let`s build something together</p>
                 <h1 className='py-4 text-gray-700'>
-                    Hi, I'm <span className='text-[#5651e5]'>Clint</span> 
+                    Hi, I`m <span className='text-[#5651e5]'>Clint</span> 
                 </h1>
                 <h1 className='py-4 text-gray-700'>
                     A Front-End web Developer
