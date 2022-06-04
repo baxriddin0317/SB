@@ -45,8 +45,8 @@ function Detali() {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              {obyekt.skills.map(sik => (
-                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> {sik}</p>
+              {obyekt.skills.map((sik, i) => (
+                <p key={i} className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> {sik}</p>
               ))}
             </div>
           </div>
