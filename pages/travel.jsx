@@ -45,6 +45,7 @@ function travel() {
                 <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> Javascript</p>
                 <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> HTML</p>
                 <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> Swipper js</p>
+                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> Swipper js</p>
             </div>
           </div>
         </div>
