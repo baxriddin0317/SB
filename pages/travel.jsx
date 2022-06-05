@@ -42,6 +42,9 @@ function travel() {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> React js</p>
+                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> Javascript</p>
+                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> HTML</p>
+                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> Swipper js</p>
             </div>
           </div>
         </div>

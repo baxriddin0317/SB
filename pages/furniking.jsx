@@ -41,7 +41,10 @@ function Furniking() {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> React js</p>
+                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> Javasctipt</p>
+                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> SCSS</p>
+                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> Swipper js</p>
+                <p className="text-gray-600 flex items-center"><RiRadioButtonFill className="pr-1" /> HTML</p>
             </div>
           </div>
         </div>
