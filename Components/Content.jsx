@@ -35,17 +35,23 @@ function Content() {
                             <div className="flex items-center justify-between py-4">
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-500'>
                                     <Link href="https://t.me/Baxriddinxoja_Axmadaliyev">
+                                        <a target="_blank">
                                         <FaTelegram size={30} color="#5651e5" />
+                                        </a>
                                     </Link>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-500'>
                                     <Link href="https://github.com/baxriddin0317">
+                                        <a target="_blank">
                                         <FaGithub size={30} color="#5651e5" />
+                                        </a>
                                     </Link>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-500'>
                                     <Link href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+                                    <a target="_blank">
                                     <AiOutlineMail size={30} color="#5651e5" />
+                                    </a>
                                     </Link>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-500'>
