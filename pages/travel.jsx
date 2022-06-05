@@ -30,10 +30,14 @@ function travel() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum maiores excepturi quibusdam ullam repellat maxime porro vero optio voluptas perferendis amet, dolores enim alias reiciendis repellendus, sit minima assumenda nam at? Fugiat quas quam, ipsum minima corporis ipsa molestiae libero.
           </p>
           <Link href="https://xoja-turism.netlify.app">
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          <a target="_blank">
+              <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            </a>
           </Link>
           <Link href="https://github.com/baxriddin0317/turism">
-          <button className="px-8 py-2 mt-4">code</button>
+          <a target="_blank">
+              <button className="px-8 py-2 mt-4 ">Code</button>
+            </a>
           </Link>
         </div>
 
