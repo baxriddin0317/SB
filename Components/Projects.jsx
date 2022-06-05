@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectItem from './ProjectItem'
+import ProjectItem from '../components/ProjectItem'
 
 import Furniking from "../public/Assets/furniking.jpg"
 import Food from "../public/Assets/food.jpg"
