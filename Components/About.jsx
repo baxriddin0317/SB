@@ -4,9 +4,9 @@ import Img from "../public/Assets/img-2.jpg"
 
 function About() {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-        <div className='max-w-7xl px-5 m-auto md:grid grid-cols-3 gap-8'>
-            <div className='col-span-2'>
+    <div id='about' className='w-full md:h-screen p-2 flex items-center py-6'>
+        <div className='max-w-7xl px-5 mx-auto md:grid grid-cols-3 gap-8'>
+            <div data-aos="fade-right" className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-brand-main'>About</p>
                 <h2 className='py-4'>Who I am</h2>
                 <p className='py-2 text-gray-600'>
@@ -22,7 +22,7 @@ function About() {
                 If you are looking for a dedicated professional who is passionate about delivering exceptional results, I am the freelancer for you. Let's discuss your project in detail and work together to bring your vision to life. I am excited to embark on this journey with you!
                 </p>
             </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl overflow-hidden flex items-center justify-center
+            <div data-aos="fade-left" className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl overflow-hidden flex items-center justify-center
             p-4 '>
                 <Image className='hover:scale-105 ease-in duration-300' src={Img} alt="/" />
             </div>

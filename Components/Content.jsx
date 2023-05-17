@@ -16,7 +16,7 @@ function Content() {
             
             <div className='grid lg:grid-cols-5 gap-8'>
                 {/* left */}
-                <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+                <div data-aos="zoom-out-up" className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     {/* image */}
                     <div className="lg:p-4">
                         <div className='w-full h-full rounded-xl overflow-hidden'>
@@ -68,7 +68,7 @@ function Content() {
 
                 </div>
                 {/* right */}
-                <div className='col-span-3 w-full h-auto shadow-xl shadow-gray=400 rounded-xl lg:p-4'>
+                <div data-aos="zoom-out-down" className='col-span-3 w-full h-auto shadow-xl shadow-gray=400 rounded-xl lg:p-4'>
                     <div className='p-4'>
 
                         <form>

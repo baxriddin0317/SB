@@ -10,8 +10,8 @@ function Projects() {
             <h2 className='py-4'>What I`ve Built</h2>
 
             <div className='grid md:grid-cols-2 gap-8'>
-              {data.map(project => (
-                <ProjectItem key={project.id} project={project} />
+              {data.map((project, i) => (
+                <ProjectItem i={i} key={project.id} project={project} />
               )) }
             </div>
 
