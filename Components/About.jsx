@@ -1,11 +1,13 @@
 import React from 'react'
+import Image from 'next/image'
+import Img from "../public/Assets/img-2.jpg"
 
 function About() {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-        <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+        <div className='max-w-7xl px-5 m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
+                <p className='uppercase text-xl tracking-widest text-brand-main'>About</p>
                 <h2 className='py-4'>Who I am</h2>
                 <p className='py-2 text-gray-600'>
                 Hello and welcome to my profile! I am an experienced freelancer with a strong background in front-end development. With a passion for creating captivating websites, I specialize in utilizing technologies such as React.js, Next.js, JavaScript, Tailwind CSS, Bootstrap, HTML, CSS, and SCSS to bring designs to life.
@@ -20,9 +22,9 @@ function About() {
                 If you are looking for a dedicated professional who is passionate about delivering exceptional results, I am the freelancer for you. Let's discuss your project in detail and work together to bring your vision to life. I am excited to embark on this journey with you!
                 </p>
             </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center
-            p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' src="https://images.unsplash.com/photo-1593640495253-23196b27a87f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="/" />
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl overflow-hidden flex items-center justify-center
+            p-4 '>
+                <Image className='hover:scale-105 ease-in duration-300' src={Img} alt="/" />
             </div>
         </div>
     </div>

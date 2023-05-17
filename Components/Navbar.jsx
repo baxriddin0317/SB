@@ -10,27 +10,7 @@ import Logo from "../public/Assets/logo.png";
 function Navbar() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
-  const router = useRouter();
-  useEffect(() => {
-    if (
-      router.asPath === "/furniking" ||
-      router.asPath === "/food" ||
-      router.asPath === "/blog" ||
-      router.asPath === "/cmp" ||
-      router.asPath === "/imperium" ||
-      router.asPath === "/kiwi" ||
-      router.asPath === "/newcast" ||
-      router.asPath === "/travel"
-    ) {
-      setNavBg("transparent");
-      setLinkColor("#ecf0f3");
-    } else {
-      setNavBg("#ecf0f3");
-      setLinkColor("#1f2937");
-    }
-  }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -50,7 +30,6 @@ function Navbar() {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-50 bg-brand-gray"
@@ -64,7 +43,7 @@ function Navbar() {
         </Link>
 
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <ul className="hidden md:flex">
             <Link href="/#home">
               <li className="ml-10 text-sm uppercase border-b border-transparent hover:text-brand-main hover:border-brand-main hover:border-b">
                 Home
@@ -92,7 +71,7 @@ function Navbar() {
             </Link>
           </ul>
           <div className="md:hidden cursor-pointer" onClick={handleNav}>
-            <AiOutlineMenu style={{ color: `${linkColor}` }} size={25} />
+            <AiOutlineMenu size={25} />
           </div>
         </div>
       </div>
@@ -109,7 +88,9 @@ function Navbar() {
           }>
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src={Logo} alt="/" width="87" height="35" />
+              <h1 className="text-xl md:text-3xl text-brand-main font-bold italic cursor-pointer">
+                My Site
+              </h1>
 
               <div
                 onClick={handleNav}
