@@ -7,15 +7,17 @@ function About() {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Who I am</h2>
-                <p className='py-2 text-gray-600'>// I am not your normal developer</p>
                 <p className='py-2 text-gray-600'>
-                    I have spent the last 1 years in the fire service working as a professional firefighter  paramedic. I have always had a knack for technology and workin with computers. In 2022 I started working with HTML  CSS to make some minor edits on a small busness website that I was operating. What I thought was just a few small edits turned into a love for programming.
+                Hello and welcome to my profile! I am an experienced freelancer with a strong background in front-end development. With a passion for creating captivating websites, I specialize in utilizing technologies such as React.js, Next.js, JavaScript, Tailwind CSS, Bootstrap, HTML, CSS, and SCSS to bring designs to life.
                 </p>
                 <p className='py-2 text-gray-600'>
-                    Fascinnated with how intricate programming can be I was quickly drawn to learn more. I started learning javascript an was even more enthused with making websites interactive. I then started freelancing for e-commerce companies on the shopify platform. I am now spending my time building projects with React Js and learning ne technologies. 
+                As a dedicated freelancer, I have been honing my skills for a significant period of time. I pride myself on delivering exceptional work that meets your requirements, combining creativity with functionality to produce outstanding results. I am highly responsive, ensuring effective communication and collaboration throughout the project.
                 </p>
-                <p className='py-2 text-gray-600 underline cursor-pointer'>
-                    Check out some of my latest projects.
+                <p className='py-2 text-gray-600'>
+                With a deep understanding of the freelancing industry, I have successfully completed numerous projects, earning a reputation for reliability, efficiency, and high-quality work. I am committed to staying updated with the latest trends and advancements in the field, allowing me to deliver cutting-edge solutions.
+                </p>
+                <p className='py-2 text-gray-600'>
+                If you are looking for a dedicated professional who is passionate about delivering exceptional results, I am the freelancer for you. Let's discuss your project in detail and work together to bring your vision to life. I am excited to embark on this journey with you!
                 </p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center
